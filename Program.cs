@@ -36,8 +36,8 @@ class Program
         #region main code
 
         List<int> randList = Enumerable.Range(1, 10000)
-        .OrderBy(e => Guid.NewGuid())
-        .ToList();
+            .OrderBy(e => Guid.NewGuid())
+            .ToList();
 
         #endregion
 
